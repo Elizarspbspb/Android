@@ -11,12 +11,13 @@
         android:id="@+id/button_test_work"
         android:layout_width="321dp"
         android:layout_height="62dp"
-        android:layout_marginBottom="352dp"
-        android:text="Деятельность"
+        android:layout_marginBottom="348dp"
+        android:text="Тип личности"
+        android:onClick="onClickGoQuise2"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -49,7 +50,7 @@
         android:layout_width="321dp"
         android:layout_height="62dp"
         android:layout_marginBottom="252dp"
-        android:text="Депрессия"
+        android:text="Стрессоустойчивость"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,6 +75,7 @@
         android:id="@+id/back"
         android:layout_width="119dp"
         android:layout_height="78dp"
+        android:onClick="onClickGoExit"
         android:text="&lt;-- Назад "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

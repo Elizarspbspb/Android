@@ -77,15 +77,14 @@ class MainActivity : AppCompatActivity()
 
     fun onClickGoTechniki(view:View)
     {
-        val intent = Intent(this, Activity_techniki::class.java)
-        intent.putExtra("key", "Name")
+        //val intent = Intent(this, Activity_techniki::class.java)
+        val intent = Intent(this, StressActivity::class.java)
         startActivity(intent)
     }
 
     fun onClickGoTests(view:View)
     {
         val intent = Intent(this, Activity_tests::class.java)
-        intent.putExtra("key", "Name")
         startActivity(intent)
     }
 
@@ -95,6 +94,10 @@ class MainActivity : AppCompatActivity()
         startActivity(intent)
     }
 
+    fun onClickGoExit(view:View)
+    {
+        System.exit(-1)
+    }
 
 
 
@@ -151,7 +154,7 @@ class MainActivity : AppCompatActivity()
         counter = 1 + 6
         MPS1.text = counter.toString() // преобразование из int в string
         MPS1.text = "Помощь"
-    }
+    }*/
 
     override fun onStart() {
         super.onStart()
@@ -181,5 +184,5 @@ class MainActivity : AppCompatActivity()
     override fun onDestroy() {
         super.onDestroy()
         Log.d("AppSt", "onDestroy")
-    }*/
+    }
 }

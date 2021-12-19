@@ -25,6 +25,7 @@
         android:layout_width="222dp"
         android:layout_height="76dp"
         android:layout_marginBottom="52dp"
+        android:onClick="onClickGoExit"
         android:text="ВЫХОД"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
