@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".Activity_tests">
+
+    <Button
+        android:id="@+id/button_test_work"
+        android:layout_width="321dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="348dp"
+        android:text="Тип личности"
+        android:onClick="onClickGoQuise2"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_test_professia"
+        android:layout_width="321dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="152dp"
+        android:text="Профессия"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_test_iq"
+        android:layout_width="321dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="452dp"
+        android:onClick="onClickGoIQ1"
+        android:text="IQ Test"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_test_depressia"
+        android:layout_width="321dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="252dp"
+        android:text="Стрессоустойчивость"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_test2"
+        android:layout_width="363dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="52dp"
+        android:background="@color/design_default_color_secondary"
+        android:backgroundTint="@color/teal_200"
+        android:text="Выбрать Тест"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="119dp"
+        android:layout_height="78dp"
+        android:onClick="onClickGoExit"
+        android:text="&lt;-- Назад "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_test_professia"
+        app:layout_constraintVertical_bias="0.531" />
+</androidx.constraintlayout.widget.ConstraintLayout>
